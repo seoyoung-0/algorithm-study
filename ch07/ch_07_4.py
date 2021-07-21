@@ -8,17 +8,20 @@ class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         
         return sum(sorted(nums)[::2])
-        
-#         part = []
-#         sum = 0
-#         nums.sort()
+  
 
-#         for n in nums:
-#             part.append(n)
+'''
+        part = []
+        sum = 0
+        nums.sort()
 
-#             if len(part) == 2:
-#                 sum += min(part)
-#                 part = []
+        for n in nums:
+            part.append(n)
 
-#         return sum
+            if len(part) == 2:
+                sum += min(part)
+                part = []
+
+        return sum  
+'''
         
