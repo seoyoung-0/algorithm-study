@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/add-two-numbers/
 '''
-
+연결리스트 역순 + 리스트와 연결리스트 간 변환 
 '''
 
 # Definition for singly-linked list.
